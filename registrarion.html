@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registrarion.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container right-panel-active">
+        <!-- signIn - Часть входа -->
+        <div class="container__form container--signup">
+            <form action="#" class="form" id="form1">
+                <h2 class="form__title">Зарегестрируйтесь</h2>
+                <input type="text" placeholder=" Имя вашего Пользователя " class="input" />
+                <input type="email" placeholder=" Ваша почта " class="input" />
+                <input type="password" placeholder=" Пароль " class="input" />
+                <button class="btn">Зарегистрируйся</button>
+            </form>
+        </div>
+
+        <!-- signUp - Часть регистрации -->
+        <div class="container__form container--signin">
+            <form action="#" class="form" id="form2">
+                <h2 class="form__title">Вход</h2>
+                <input type="email" placeholder=" Ваша почта " class="input" />
+                <input type="password" placeholder=" Пароль " class="input" />
+                <a href="#" class="link">Забыли свой пароль?</a>
+                <button class="btn">Войти в аккаунт</button>
+            </form>
+        </div>
+
+        <!-- Overlay - наложение  -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn">Войти</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <button class="btn" id="signUp">Зарегестрируйтесь</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="registrarion.js"></script>
+</body>
+
+</html>
