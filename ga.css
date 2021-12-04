@@ -5,7 +5,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #040301;
-    background-image: url(https://images.pexels.com/photos/1509582/pexels-photo-1509582.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }
@@ -19,7 +19,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    background-color: rgb(132, 138, 113);
+    background-color: rgb(0, 0, 0);
     background-clip: padding-box;
     border: 1px solid #ced4da;
     -webkit-appearance: none;
@@ -65,13 +65,13 @@ body {
 }
 
 .btn-outline-success {
-    color: #1f1f1fcc;
+    color: #b8860b ;
     border-color: #6a6a6a;
 }
 
 .btn-outline-success:hover {
-    color: #fff;
-    background-color: #00ff08cf;
+    color: rgb(0, 0, 0);
+    background-color: #f0f4f9a1;
     border-color: #0c0c0c;
 }
 
@@ -89,8 +89,10 @@ body {
     display: flex;
     flex-basis: auto;
     justify-content: space-evenly;
+
 }
 /* ниже \/ тут внутрение стили, текст и т.д. дроп меню */
+
 .dropdown-item {
     display: block;
     width: 100%;
@@ -262,6 +264,14 @@ a {
     justify-content: space-evenly;
 }
 
+
+
+
+
+
+
+
+
 /* короче тута я делаю цвет этому "кубу" */
 img,
 svg {
@@ -400,8 +410,8 @@ svg {
 
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg,
-    rgba(255, 255, 255, 1) 75%,
-    rgba(255, 255, 255, 0.9) 80%,
-    rgba(255, 255, 255, 0.25) 95%,
-    rgba(255, 255, 255, 0) 100%);
+            rgba(255, 255, 255, 1) 75%,
+            rgba(255, 255, 255, 0.9) 80%,
+            rgba(255, 255, 255, 0.25) 95%,
+            rgba(255, 255, 255, 0) 100%);
 }
